@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    font-family: Palatino, Arial, sans-serif;
+    color: #333; margin: 0;
+}
+section {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    clear: both;
+    text-align: center;
+}
+h2 {
+    margin: 2.0em 0 0 0;
+}
+h3, h4, h5 {
+    margin: 0;
+}
+h4, h5 {
+    font-weight: normal;
+}
+img {
+    width: auto;
+    clip-path: circle(90px at center);
+    height: auto;
+}
+footer {
+    clear: both;
+}
+abbr[title] {
+    text-decoration: #009 dotted underline;
+}
+
+section figure {
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    max-width: 50vw;
+    border-radius: 10px;
+}
+section figure img {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+figure, figcaption {
+    text-align: center;
+}
+figcaption {
+    margin-top: 0.25em;
+    padding-top: 0.25em;
+}
+
+#pi {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+h1 span {
+    display: block;
+    font-size: 0.8em;
+    color: #009;
+    background: linear-gradient(#fff, #ddd);
+    border-bottom: 1px solid #ddd;
+}
+figure:hover {
+    color: #009;
+    cursor: pointer;
+    background-color: #ddd;
+}
+#topmatter p {
+    text-align: justify;
+    margin: 1.0em;
+}
+abbr:hover {
+    cursor: help;
+}
+section#progress ol {
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.2em;
+}
+section#progress ol li {
+    padding: 0.5em;
+    border-radius: 10px;
+}
+section#progress li#active {
+    background-color: #ddd;
+    font-weight: bold;
+    color: #009;
+    border: 1px solid #009;
+}
+section#progress li#active:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
