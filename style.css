@@ -96,3 +96,14 @@ section#progress li#active:hover {
     background-color: #bbb;
     cursor: pointer;
 }
+
+section#outputs {
+    width: 75%;  
+}
+section#outputs ul {
+    list-style-type: none;
+    text-align: justify;
+}
+section#outputs ul li {
+    margin-bottom: 1.0em;
+}
