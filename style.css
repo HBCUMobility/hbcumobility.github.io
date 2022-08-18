@@ -6,8 +6,8 @@ body {
 section {
     width: 100%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
     clear: both;
     text-align: center;
 }
@@ -48,8 +48,8 @@ figure, figcaption {
     text-align: center;
 }
 figcaption {
-    margin-top: 0.25em;
-    padding-top: 0.25em;
+    margin-block-start: 0.25em;
+    padding-block-start: 0.25em;
 }
 
 #pi {
@@ -69,7 +69,7 @@ figure:hover {
     cursor: pointer;
     background-color: #ddd;
 }
-#topmatter p {
+#frontmatter p {
     text-align: justify;
     margin: 1.0em;
 }
@@ -79,7 +79,7 @@ abbr:hover {
 section#progress ol {
     width: 33%;
     display: inline-block;
-    text-align: left;
+    text-align: start;
     font-size: 1.2em;
 }
 section#progress ol li {
