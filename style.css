@@ -27,6 +27,8 @@ img {
 }
 footer {
     clear: both;
+    margin-block-start: 5.0em;
+    padding: 0 1.0em;
 }
 abbr[title] {
     text-decoration: #009 dotted underline;
