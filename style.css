@@ -93,10 +93,25 @@ section#progress li#active {
     font-weight: bold;
     color: #009;
     border: 1px solid #009;
+    border-radius: 0 0 10px 10px;
 }
 section#progress li#active:hover {
     background-color: #bbb;
     cursor: pointer;
+}
+section#progress li.complete {
+    color: #090;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    border-width: 0 1px 0 1px;
+    border-radius: 1px;
+}
+section#progress li.complete::marker {
+    content: '✓ '; 
+}
+section#progress li:first-child {
+    border-radius: 10px 10px 0 0;
+    border-width: 1px 1px 0 1px;
 }
 
 section#outputs {
