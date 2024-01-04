@@ -71,6 +71,23 @@ figure:hover {
     cursor: pointer;
     background-color: #ddd;
 }
+figure.drexel:hover {
+    background-color: #002663;
+    color: #F5CF47;
+}
+figure.howard:hover {
+    background-color: #003A63;
+    color: #E51937;
+}
+figure.tennessee:hover {
+    background-color: #FF8200;
+    color: #FFFFFF;
+}
+figure.wisconsin:hover {
+    background-color: #C5050C;
+    color: #FFFFFF;
+}
+
 #frontmatter p {
     text-align: justify;
     margin: 1.0em;
