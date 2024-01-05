@@ -141,3 +141,10 @@ section#outputs ul {
 section#outputs ul li {
     margin-bottom: 1.0em;
 }
+
+@media (max-width: 480px) {
+    section#students {padding: 2px;}
+    section figure img {width: 100px; height: 100px;}
+    section figure {margin: 0; max-width: none;}
+    img {clip-path: circle(50px at center);}
+}
