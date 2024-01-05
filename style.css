@@ -20,6 +20,9 @@ h3, h4, h5 {
 h4, h5 {
     font-weight: normal;
 }
+h5 {
+    font-size: 0.7em;
+}
 img {
     width: auto;
     clip-path: circle(90px at center);
