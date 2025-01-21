@@ -100,6 +100,7 @@ abbr:hover {
 }
 section#progress ol {
     width: 33%;
+    min-width: 70%;
     display: inline-block;
     text-align: start;
     font-size: 1.2em;
